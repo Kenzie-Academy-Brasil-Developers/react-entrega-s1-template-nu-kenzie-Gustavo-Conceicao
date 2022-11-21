@@ -1,0 +1,33 @@
+.divList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divBtnList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.btnFilter {
+    height: 40px;
+    width: max-content;
+    border-radius: 8px;
+    padding: 0 15px;
+    color: #343A40;
+    background-color: #E9ECEF;
+    border: none;
+    cursor: pointer;
+}
+
+.btnFilter:hover {
+    background-color: #e9ecef83;  
+}
+
+.btnFilter:focus {
+    background-color: #FD377E;
+    color: white;
+}

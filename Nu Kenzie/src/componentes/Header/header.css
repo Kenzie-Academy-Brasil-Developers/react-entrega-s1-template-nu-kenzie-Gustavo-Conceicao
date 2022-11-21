@@ -1,0 +1,28 @@
+.headerPage {
+    background-color: #F8F9FA;
+    height: 80px;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 175px;
+}
+
+.btnHeader {
+    height: 40px;
+    width: 64px;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #E9ECEF;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.btnHeader:hover {
+    background-color: #e9ecef8a;
+}

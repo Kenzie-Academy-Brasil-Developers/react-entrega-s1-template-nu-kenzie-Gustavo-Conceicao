@@ -1,0 +1,73 @@
+.formInput {
+    border: 1.8px solid #c3c3c3;
+    padding: 15px;
+    border-radius: 8px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.labelForm {
+    font-size: 15px;
+}
+
+.inputDescription {
+    width: 100%;
+    margin: 0 auto;
+    height: 45px;
+    background-color: #F8F9FA;
+    border: none;
+    border-radius: 8px;
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.divSelect {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputValue {
+    height: 45px;
+    width: 80%;
+    background-color: #F8F9FA;
+    border: none;
+    border-radius: 8px;
+}
+
+.selectTypeValue {
+    background-color: #F8F9FA;
+    height: 45px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.optionsSelect {
+    background-color: #F8F9FA;
+    height: 45px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btnForm {
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 8px;  
+    background-color: #FD377E;  
+    color: white;
+    border: none;
+    cursor: pointer;
+}

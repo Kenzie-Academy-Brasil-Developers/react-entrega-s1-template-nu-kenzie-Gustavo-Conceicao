@@ -1,0 +1,29 @@
+.divBody {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.divMain {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.divCard {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 45%;
+    height: 100%;
+}
