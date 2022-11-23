@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const FormPage = ({ setListTransactions }) => {
   const [transactionDescription, setTransactionDescription] = useState("");
-  const [transactionType, setTransactionType] = useState({value: "entrada"});
+  const [transactionType, setTransactionType] = useState({ value: "entrada" });
   const [transactionValue, setTransactionValue] = useState();
 
   const createNewTransaction = (e) => {
@@ -34,7 +34,7 @@ const FormPage = ({ setListTransactions }) => {
           setTransactionDescription(e.target.value);
         }}
       />
-      <span className="">Ex: Compras de roupas</span>
+      <span className="example">Ex: Compras de roupas</span>
       <div className="divSelect">
         <div className="divInputs">
           <label className="labelForm">Valor</label>
@@ -51,14 +51,14 @@ const FormPage = ({ setListTransactions }) => {
           />
         </div>
         <div className="divInputs">
-          <label>Tipo de valor</label>
+          <label className="labelForm">Tipo de valor</label>
           <select
             className="selectTypeValue"
             id="idSelect"
             value={transactionType.value}
             onChange={(e) => {
               setTransactionType({ value: e.target.value });
-            }}  
+            }}
           >
             <option className="optionsSelect" value={"entrada"}>
               Entrada

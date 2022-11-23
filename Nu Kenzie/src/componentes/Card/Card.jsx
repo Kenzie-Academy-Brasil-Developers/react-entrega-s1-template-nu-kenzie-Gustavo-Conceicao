@@ -14,12 +14,11 @@ const Card = ({ listTransactions, setListTransactions}) => {
       {listTransactions.map((listTransaction, index) => (
         <li key={index} className="liCard">
           <div className="divDescription">
-            <p>{listTransaction.description}</p>
-            <span>{listTransaction.type}</span>
+            <p className="textDescription">{listTransaction.description}</p>
+            <span className="textType">{listTransaction.type}</span>
           </div>
-
           <div className="divValue">
-            <span>{listTransaction.value}</span>
+            <span className="textValues">{listTransaction.value}</span>
             <img className="iconDelete" src="../../img/trash.png" alt="Botão para deletar"  onClick={() => {removeTransaction(index)}}/>
           </div>
         </li>

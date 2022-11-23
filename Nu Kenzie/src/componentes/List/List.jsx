@@ -1,16 +1,33 @@
-import "./list.css"
+import "./list.css";
+import React from "react";
 
-const List = () => {
-    return (
-        <div className="divList">
-            <h2 className="">Resumo financeiro</h2>
-            <div className="divBtnList">
-                <button className="btnFilter">Todos</button>
-                <button className="btnFilter">Entradas</button>
-                <button className="btnFilter">Despesas</button>
-            </div>
-        </div>
-    )
-}
+const List = ({ filterEntry, filterAll, filterOut }) => {
+
+  return (
+    <div className="divList">
+      <h2 className="textBalance">Resumo financeiro</h2>
+      <div className="divBtnList">
+        <button
+          className="btnFilter"
+          onClick={filterAll}
+        >
+          Todos
+        </button>
+        <button
+          className="btnFilter"
+          onClick={filterEntry}
+        >
+          Entradas
+        </button>
+        <button
+          className="btnFilter"
+          onClick={filterOut}
+        >
+          Despesas
+        </button>
+      </div>
+    </div>
+  );
+};
 
 export default List;

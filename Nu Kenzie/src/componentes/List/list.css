@@ -1,33 +1,44 @@
 .divList {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .divBtnList {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
 
 .btnFilter {
-    height: 40px;
-    width: max-content;
-    border-radius: 8px;
-    padding: 0 15px;
-    color: #343A40;
-    background-color: #E9ECEF;
-    border: none;
-    cursor: pointer;
+  height: 35px;
+  width: max-content;
+  border-radius: 8px;
+  padding: 0 15px;
+  color: #343a40;
+  background-color: #e9ecef;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 #00000048;
 }
 
 .btnFilter:hover {
-    background-color: #e9ecef83;  
+  background-color: #e9ecef83;
+  box-shadow: 0 0 10px 0 #00000048;
+
 }
 
 .btnFilter:focus {
-    background-color: #FD377E;
-    color: white;
+  background-color: #fd377e;
+  color: white;
+}
+
+.textBalance{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;  
 }

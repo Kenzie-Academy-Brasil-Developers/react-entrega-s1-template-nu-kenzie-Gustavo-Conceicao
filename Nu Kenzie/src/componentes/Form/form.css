@@ -1,8 +1,8 @@
 .formInput {
-    border: 1.8px solid #c3c3c3;
+    box-shadow: 0 0 10px 0 #00000048;
     padding: 15px;
     border-radius: 8px;
-    height: 350px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -10,7 +10,10 @@
 }
 
 .labelForm {
-    font-size: 15px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;   
 }
 
 .inputDescription {
@@ -18,8 +21,13 @@
     margin: 0 auto;
     height: 45px;
     background-color: #F8F9FA;
+    box-shadow: 0 0 5px 0 #00000048;
     border: none;
     border-radius: 8px;
+}
+
+.inputDescription:hover {
+    box-shadow: 0 0 10px 0 #00000048;
 }
 
 .divInputs {
@@ -29,12 +37,20 @@
     gap: 15px;
 }
 
+.example{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;   
+}
+
 .divSelect {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .inputValue {
@@ -43,6 +59,11 @@
     background-color: #F8F9FA;
     border: none;
     border-radius: 8px;
+    box-shadow: 0 0 5px 0 #00000048;
+}
+
+.inputValue:hover {
+    box-shadow: 0 0 10px 0 #00000048;
 }
 
 .selectTypeValue {
@@ -51,6 +72,8 @@
     border: none;
     width: 100%;
     border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 #00000048;
 }
 
 .optionsSelect {
@@ -63,11 +86,19 @@
 
 .btnForm {
     height: 50px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     border-radius: 8px;  
     background-color: #FD377E;  
     color: white;
     border: none;
     cursor: pointer;
+    box-shadow: 0 0 5px 0 #00000048;
+
+}
+
+.btnForm:hover {
+    background-color: white;
+    color: #FD377E;  
+    border: 2px solid #FD377E ;
 }
