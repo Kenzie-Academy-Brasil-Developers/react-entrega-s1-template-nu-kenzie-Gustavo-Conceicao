@@ -1,6 +1,6 @@
 import "./landing.css";
 
-const Landing = () => {
+const Landing = ({ setUsePages }) => {
   return (
     <body className="bodyLanding">
       <section className="sectionLeft">
@@ -9,7 +9,9 @@ const Landing = () => {
         </h1>
         <p className="textLanding">Centralize o controle das suas finanças</p>
         <span className="spanLanding">de forma rápida e segura</span>
-        <button className="btnLanding">Iniciar</button>
+        <button className="btnLanding" onClick={() => setUsePages(false)}>
+          Iniciar
+        </button>
       </section>
       <section className="sectionRight">
         <img src="/img/illustration.svg" alt="illustration" />
